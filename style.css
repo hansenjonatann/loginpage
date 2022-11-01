@@ -1,0 +1,45 @@
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(blue,lightblue);
+    color: white;
+    max-width: 100%;
+
+}
+
+#box{
+    padding: 12px;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 4px 2px;
+}
+
+.login-title{
+    margin-bottom: 40px;
+}
+.form-control{
+    padding: 24px;
+    font-size: 22px;
+    margin: 2px auto;
+    color: white;
+}
+
+input{
+    padding: 6px 10px;
+    margin-top: 2px;
+}
+
+a{
+    color: white;
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+    font-size: 14px;
+}
+
+
